@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport = "true">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eventlist">
+
+
+    <Button
+        android:id="@+id/btnANK"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="220dp"
+        android:text="NEXT KOBE?"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnEKT"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:onClick ="doit"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="41dp"
+        android:text="EN KURI THAPPATHU"
+        app:layout_constraintBottom_toTopOf="@+id/btnHOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOMF"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="220dp"
+        android:text="ON MA FACE"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRBR"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="220dp"
+        android:onClick ="doit"
+        android:text="RUN BABY RUN!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOMF" />
+
+    <Button
+        android:id="@+id/btnTRE"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="220dp"
+        android:onClick ="doit"
+        android:text="TASTE ROULETTE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRBR" />
+
+    <Button
+        android:id="@+id/btnTIC"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="220dp"
+        android:text="TICK TOCK"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRBR" />
+
+    <Button
+        android:id="@+id/btnTWT"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="220dp"
+        android:text="TWISTY TWIRLY TANGLE"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick ="doit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTIC" />
+
+    <Button
+        android:id="@+id/btnUUU"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="220dp"
+        android:text="URUTTU URUTTU NEE"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTWT" />
+
+    <Button
+        android:id="@+id/btnHOS"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="220dp"
+        android:text="HOPSCOTCH"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBIT"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="42dp"
+        android:onClick ="doit"
+        android:text="BOUNCE IT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGAH"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="42dp"
+        android:text="GAME-A-HOLIC"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMNG"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="42dp"
+        android:text="MINGLE N GINGLE"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSTP"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:onClick ="doit"
+        android:layout_marginTop="684dp"
+        android:layout_marginEnd="42dp"
+        android:text="SENJITA POCHE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPIN"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="42dp"
+        android:text="PUT IT IN"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTTN"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="42dp"
+        android:text="THOTTA THOOKIDUVEN"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toBottomOf="@+id/btnSTP" />
+
+    <Button
+        android:id="@+id/btnTPT"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="42dp"
+        android:text="TP TEASE"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toBottomOf="@+id/btnTTN" />
+
+    <Button
+        android:id="@+id/btnTNF"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="42dp"
+        android:text="TWO AND FRO WOBBLE"
+        android:onClick ="doit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toBottomOf="@+id/btnTPT" />
+
+    <Button
+        android:id="@+id/btnVUM"
+        android:layout_width="149dp"
+        android:layout_height="99dp"
+        android:onClick ="doit"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="42dp"
+        android:text="VAANGA URUTTALAM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btnANK"
+        app:layout_constraintTop_toBottomOf="@+id/btnTPT" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
